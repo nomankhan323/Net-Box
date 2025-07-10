@@ -27,7 +27,7 @@ nav {
     color: white;
     border: none;
     padding: 12px 36px;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 
@@ -52,7 +52,7 @@ nav {
     color: white;
     border: none;
     padding: 12px 36px;
-    border-radius: 5px;
+    border-radius: 10px;
     align-items: center;
     margin-bottom: 152px;
 }
@@ -61,4 +61,42 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* section style */
+
+.action-text {
+    margin: 60px;
+}
+
+.action-heading {
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0%;
+}
+
+.action-pr {
+    font-weight: 400px;
+    font-size: 24px;
+    color: #252432;
+}
+
+.action-btn {
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+
+.main-action {
+    display: flex;
+    justify-content: space-between;
+    margin: 123px 169px;
+}
+
+.action-img {
+    border-radius: 48px;
 }
