@@ -1,0 +1,37 @@
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway-text {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: blue;
+    margin: 50px 150px;
+
+}
+
+.btn-primary {
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 5px;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 34px;
+}
