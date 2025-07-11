@@ -2,6 +2,10 @@
     margin: 0%;
 }
 
+body button:hover {
+    background-color: #000000 !important;
+}
+
 .theme-color {
     background-color: #f4f5f7;
 }
@@ -206,7 +210,8 @@ nav {
 .review-group {
     margin: 50px 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 }
 
 /* option section */
@@ -343,7 +348,7 @@ div li a {
 
 .action-btn:hover {
     cursor: pointer;
-    background-color: #057575;
+    background-color: #000000;
     font-weight: bold;
     font-size: 16px;
     color: white;
@@ -354,7 +359,6 @@ div li a {
 
 .btn-primary:hover {
     cursor: pointer;
-    background-color: #057575;
     font-weight: bold;
     font-size: 16px;
     color: white;
@@ -365,7 +369,6 @@ div li a {
 
 .btn-stay:hover {
     cursor: pointer;
-    background-color: #057575;
     font-weight: bold;
     font-size: 16px;
     color: white;
@@ -376,7 +379,6 @@ div li a {
 
 .option-btn:hover {
     cursor: pointer;
-    background-color: #057575;
     font-weight: bold;
     font-size: 16px;
     color: white;
@@ -387,7 +389,7 @@ div li a {
 
 .input-btn:hover {
     cursor: pointer;
-    background-color: #057575;
+    background-color: #000000;
     font-weight: bold;
     font-size: 16px;
     color: white;
