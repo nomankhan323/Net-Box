@@ -3,7 +3,7 @@
 }
 
 .theme-color {
-    background-color: #FAFCFF;
+    background-color: #f4f5f7;
 }
 
 .inter-normal {
@@ -50,6 +50,7 @@ nav {
     font-size: 65px;
     text-align: center;
     margin-top: 158px;
+    margin-bottom: 37px;
 
 }
 
@@ -87,6 +88,7 @@ nav {
     font-weight: 400px;
     font-size: 24px;
     color: #252432;
+    padding-bottom: 23px;
 }
 
 .action-btn {
@@ -205,4 +207,50 @@ nav {
     margin: 50px 150px;
     display: flex;
     justify-content: space-around;
+}
+
+/* option section */
+
+.option-heading {
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.option-pr {
+    color: #000000;
+    padding-bottom: 20px;
+    font-size: 20;
+}
+
+.option-btn {
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+    display: block;
+
+}
+
+.option-img {
+    height: 364px;
+    border-radius: 48px;
+    display: block;
+    margin-top: 20px;
+}
+
+.option-main {
+    justify-items: center;
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    margin: 130px 150px;
+    border-radius: 14px;
+}
+
+/* footer styles */
+footer {
+    padding: 293px 150px;
 }
