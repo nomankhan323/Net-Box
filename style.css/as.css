@@ -250,7 +250,69 @@ nav {
     border-radius: 14px;
 }
 
-/* footer styles */
-footer {
-    padding: 293px 150px;
+/* section input */
+.input-heading {
+    font-weight: bold;
+    font-size: 97px;
+    margin-left: 150px;
+}
+
+.input-label {
+    margin-right: 115px;
+    display: block;
+    font-weight: 500px;
+    font-size: 18;
+
+}
+
+.input-in {
+
+    font-size: 20px;
+}
+
+.input-btn {
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 19px 100px;
+    border-radius: 10px;
+    width: 100%;
+
+
+}
+
+.input-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.input-text {
+    margin-right: 150px;
+}
+
+.input-in {
+    width: auto;
+    padding-top: 10px;
+    padding: 2px;
+    padding-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.action-btn:hover {
+    cursor: pointer;
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 10px;
 }
