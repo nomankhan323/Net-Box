@@ -287,7 +287,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 85px;
 
 }
 
@@ -306,7 +307,41 @@ nav {
     margin-bottom: 20px;
 }
 
-.action-btn:hover {
+/* footer section */
+
+.section-title {
+    font-weight: 900;
+    font-size: 90px;
+    color: blue;
+}
+
+.title-pr {
+    font-size: 16px;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+
+
+div ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 48px;
+}
+
+div li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #8987A1;
+}
+
+.header-title {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 104px;
+
+}
+
+/* .action-btn:hover {
     cursor: pointer;
     background-color: green;
     font-weight: bold;
@@ -315,4 +350,4 @@ nav {
     border: none;
     padding: 16px 40px;
     border-radius: 10px;
-}
+} */
