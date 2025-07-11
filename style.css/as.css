@@ -279,8 +279,6 @@ nav {
     padding: 19px 100px;
     border-radius: 10px;
     width: 100%;
-
-
 }
 
 .input-main {
@@ -341,13 +339,48 @@ div li a {
 
 }
 
-/* .action-btn:hover {
+/* hover btn */
+
+.action-btn:hover {
     cursor: pointer;
-    background-color: green;
+    background-color: #057575;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     border: none;
-    padding: 16px 40px;
+    padding: 12px 38px;
     border-radius: 10px;
-} */
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: #057575;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 38px;
+    border-radius: 10px;
+}
+
+.btn-stay:hover {
+    cursor: pointer;
+    background-color: #057575;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 38px;
+    border-radius: 10px;
+}
+
+.option-btn:hover {
+    cursor: pointer;
+    background-color: #057575;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 38px;
+    border-radius: 10px;
+}
